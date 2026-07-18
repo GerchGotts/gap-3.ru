@@ -15,7 +15,7 @@
   --color-border: #3a3327;
   --color-border-strong: #4a4133;
 
-  --color-text: #d9ceb6;
+  --color-text: #d9ceb   6;
   --color-text-muted: #8c8270;
   --color-text-faint: #5e5648;
 
@@ -369,7 +369,7 @@ p, li { text-wrap: pretty; max-width: 100ch; }
   }
 
   .hero__title {
-    font-size: clamp(52px, 18vw, 88px);
+    font-size: 56px;
     line-height: .9;
   }
 
@@ -1009,7 +1009,7 @@ blockquote{
 
     width:1450px;
 
-    max-width:95%;
+    max-width: 980px;
 
 }
 
