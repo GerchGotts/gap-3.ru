@@ -1157,7 +1157,7 @@ blockquote{
 
 /* Телефон */
 
-@media (max-width:900px){
+@media (max-width:100px){
 
 .lore-page .topbar__inner{
     flex-direction:column;
