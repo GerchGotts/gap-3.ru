@@ -240,7 +240,7 @@ p, li { text-wrap: pretty; max-width: 100ch; }
 .ip-label { font-family: var(--font-display); font-size: 0.625rem; text-transform: uppercase; letter-spacing: 0.08em; color: var(--color-text-muted); display: block; width: 100%; }
 .ip-value { font-family: var(--font-display); font-size: var(--text-base); color: var(--color-moss-hover); background: var(--color-bg); padding: var(--space-2) var(--space-4); border: 2px solid var(--color-border); flex: 1; min-width: 0; white-space: nowrap; overflow-x: auto; scrollbar-width: none; }
 .ip-value::-webkit-scrollbar { display: none; }
-.ip-value--lg { font-size: var(--text-xl); padding: var(--space-4) var(--space-6); text-align: center; }
+.ip-value--lg { font-size: clamp(1rem, 5vw, 1.5rem); padding: var(--space-4) var(--space-6); text-align: center; }
 .server-card__ip .ip-value { font-size: 1rem; }
 .server-card__ip .btn { flex-shrink: 0; }
 
