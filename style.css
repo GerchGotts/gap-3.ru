@@ -1396,3 +1396,8 @@ h3 {
     }
 
 }
+@media (max-width:768px){
+    body{
+        outline:10px solid red !important;
+    }
+}
