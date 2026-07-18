@@ -489,3 +489,71 @@ p, li { text-wrap: pretty; max-width: 70ch; }
     padding-block: 50px;
   }
 }
+/* ===== Исправление манифеста для телефонов ===== */
+
+@media (max-width: 768px) {
+
+  .about__grid {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+  }
+
+  .about__lead,
+  .about__cards,
+  .about-card {
+    width: 100%;
+    max-width: 100%;
+  }
+
+  .about__lead {
+    font-size: 1rem;
+    line-height: 1.7;
+  }
+
+  .about-card {
+    padding: 18px;
+    gap: 16px;
+  }
+
+  .about-card__icon {
+    width: 48px;
+    height: 48px;
+    flex-shrink: 0;
+  }
+
+  .about-card__title {
+    font-size: 1rem;
+  }
+
+  .about-card p {
+    font-size: .95rem;
+    max-width: 100%;
+    word-break: break-word;
+  }
+
+  .section__head {
+    text-align: center;
+  }
+
+  .section__title {
+    word-break: break-word;
+  }
+}
+
+@media (max-width: 480px) {
+
+  .about-card {
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+  }
+
+  .about-card__icon {
+    margin-bottom: 10px;
+  }
+
+  .about__lead {
+    font-size: .95rem;
+  }
+}
