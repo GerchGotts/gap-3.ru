@@ -365,7 +365,7 @@ p, li { text-wrap: pretty; max-width: 100ch; }
   }
 
   .hero {
-    padding-block: 60px 40px;
+    padding-block: 40px 30px;
   }
 
   .hero__title {
