@@ -1155,8 +1155,6 @@ blockquote{
     transform:rotate(-45deg);
 }
 
-
-
 /* Телефон */
 
 @media (max-width:900px){
@@ -1182,4 +1180,23 @@ blockquote{
     flex:0 0 auto;
 }
 
+}
+.topbar{
+    position:sticky;
+    top:0;
+    z-index:1000;
+    background:#151210;
+    border-bottom:1px solid #3b3026;
+}
+
+.topbar__inner{
+    max-width:1400px;
+    margin:auto;
+
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+
+    gap:30px;
+    padding:14px 24px;
 }
