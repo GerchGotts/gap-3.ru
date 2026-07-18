@@ -1072,3 +1072,160 @@ blockquote{
     background:#453629;
 
 }
+
+/* ==========================
+        TOP BAR
+========================== */
+
+.topbar{
+    position:sticky;
+    top:0;
+    z-index:1000;
+
+    background:rgba(14,12,11,.95);
+    backdrop-filter:blur(12px);
+
+    border-bottom:1px solid rgba(201,147,80,.18);
+
+    box-shadow:
+        0 8px 30px rgba(0,0,0,.45);
+}
+
+.topbar__inner{
+
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+
+    height:82px;
+}
+
+
+/* ==========================
+          LOGO
+========================== */
+
+.logo{
+
+    display:flex;
+    align-items:center;
+    gap:14px;
+
+    text-decoration:none;
+
+    color:#f4e5c5;
+
+    font-size:24px;
+    font-weight:700;
+
+    letter-spacing:.08em;
+
+    transition:.3s;
+}
+
+.logo:hover{
+
+    color:#ffcf82;
+}
+
+.logo__icon{
+
+    width:42px;
+    height:42px;
+
+    display:flex;
+    align-items:center;
+    justify-content:center;
+
+    border:1px solid rgba(201,147,80,.4);
+
+    background:#171311;
+
+    color:#d39a55;
+
+    font-size:22px;
+
+    transform:rotate(45deg);
+}
+
+.logo__icon::before{
+
+    content:"✦";
+
+    transform:rotate(-45deg);
+}
+
+
+/* ==========================
+          NAV
+========================== */
+
+.nav{
+
+    display:flex;
+    gap:10px;
+}
+
+.nav a{
+
+    position:relative;
+
+    padding:12px 22px;
+
+    color:#b9ab94;
+
+    text-decoration:none;
+
+    text-transform:uppercase;
+
+    font-size:13px;
+
+    letter-spacing:.18em;
+
+    transition:.3s;
+
+    border:1px solid transparent;
+}
+
+
+.nav a:hover{
+
+    color:#fff4d5;
+
+    border-color:rgba(201,147,80,.35);
+
+    background:rgba(201,147,80,.08);
+
+    box-shadow:
+        inset 0 0 18px rgba(201,147,80,.08),
+        0 0 15px rgba(201,147,80,.08);
+}
+
+
+.nav a::after{
+
+    content:"";
+
+    position:absolute;
+
+    left:18px;
+    right:18px;
+    bottom:6px;
+
+    height:1px;
+
+    background:linear-gradient(
+    90deg,
+    transparent,
+    #c99350,
+    transparent);
+
+    transform:scaleX(0);
+
+    transition:.35s;
+}
+
+.nav a:hover::after{
+
+    transform:scaleX(1);
+}
