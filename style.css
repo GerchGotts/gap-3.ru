@@ -1157,60 +1157,6 @@ blockquote{
 
 
 
-
-/* Только страница лора */
-
-.lore-page .topbar{
-    position:sticky;
-    top:0;
-    z-index:100;
-    background:rgba(15,12,10,.95);
-    backdrop-filter:blur(12px);
-    border-bottom:1px solid var(--line);
-}
-
-.lore-page .topbar__inner{
-    display:flex;
-    justify-content:space-between;
-    align-items:center;
-    gap:30px;
-    padding:18px 0;
-}
-
-.lore-page .logo{
-    display:flex;
-    align-items:center;
-    gap:10px;
-    font-size:20px;
-    font-weight:700;
-    color:#fff;
-    text-decoration:none;
-    white-space:nowrap;
-}
-
-.lore-page .nav{
-    display:flex;
-    flex-wrap:wrap;
-    justify-content:flex-end;
-    gap:10px;
-}
-
-.lore-page .nav a{
-    padding:8px 14px;
-    border:1px solid var(--line);
-    border-radius:999px;
-    text-decoration:none;
-    color:#d8cfc2;
-    font-size:14px;
-    transition:.25s;
-}
-
-.lore-page .nav a:hover{
-    border-color:var(--accent);
-    color:#fff;
-    background:rgba(170,70,50,.15);
-}
-
 /* Телефон */
 
 @media (max-width:900px){
