@@ -1287,7 +1287,12 @@ h3 {
 ========================== */
 
 @media (max-width:768px){
-
+:root{
+    --text-base: 1rem;
+    --text-lg: 1.15rem;
+    --text-xl: 1.35rem;
+    --text-2xl: 1.7rem; 
+   
     body{
         font-size:15px;
     }
