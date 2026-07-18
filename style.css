@@ -1271,16 +1271,15 @@ blockquote{
 
 }
 body {
-    color: #d9ceb6 !important;
+    color: var(--color-text);
 }
 
-.hero__title,
-.hero__subtitle,
-.section__title,
-h1,
-h2,
-h3 {
-    color: #e8dcbf !important;
+.hero__title {
+    color: var(--title-color);
+}
+
+.section__title {
+    color: var(--color-text);
 }
 /* ==========================
    Телефон — уменьшение текста
