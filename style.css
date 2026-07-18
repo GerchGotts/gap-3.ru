@@ -1351,3 +1351,48 @@ h3 {
         font-size:.9rem !important;
     }
 }
+@media (max-width:768px){
+
+    .section__title{
+        font-size:32px !important;
+    }
+
+    .hero__title{
+        font-size:48px !important;
+    }
+
+    .rule p,
+    .mode-card p,
+    .about-card p,
+    .join__intro,
+    .staff-card__desc{
+        font-size:16px !important;
+    }
+
+    .mode-card__title,
+    .race-card h3,
+    .rule h3{
+        font-size:22px !important;
+    }
+
+    .rule__num{
+        font-size:20px !important;
+    }
+}
+
+@media (max-width:480px){
+
+    .section__title{
+        font-size:28px !important;
+    }
+
+    .hero__title{
+        font-size:42px !important;
+    }
+
+    .rule p,
+    .mode-card p{
+        font-size:15px !important;
+    }
+
+}
