@@ -536,3 +536,35 @@ p, li { text-wrap: pretty; max-width: 100ch; }
   }
 
 }
+
+/* ===== Исправление блока Join для телефона ===== */
+
+@media (max-width: 768px) {
+
+  .join__actions{
+    flex-direction: column;
+    align-items: stretch;
+    gap: 20px;
+  }
+
+  .join__ip{
+    width: 100%;
+    align-items: center;
+  }
+
+  .ip-value{
+    width: 100%;
+    max-width: 100%;
+    white-space: normal;
+    overflow-wrap: break-word;
+    word-break: break-all;
+    text-align: center;
+    font-size: 1rem;
+    padding: 12px;
+  }
+
+  .join__actions .btn{
+    width: 100%;
+  }
+
+}
