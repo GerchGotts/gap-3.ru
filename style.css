@@ -587,3 +587,30 @@ p, li { text-wrap: pretty; max-width: 100ch; }
   }
 
 }
+@media (max-width: 768px) {
+
+  .join__actions {
+    flex-direction: column;
+    align-items: stretch;
+    gap: 20px;
+  }
+
+  .join__ip {
+    width: 100%;
+    text-align: center;
+  }
+
+  .ip-value--lg {
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+    font-size: 1rem;
+    padding: 12px;
+  }
+
+  .join__actions .btn {
+    width: 100%;
+    text-align: center;
+  }
+
+}
