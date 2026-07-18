@@ -227,7 +227,7 @@ p, li { text-wrap: pretty; max-width: 100ch; }
 .hero__subtitle { font-size: var(--text-xl); color: var(--color-text); font-family: var(--font-body); max-width: 18ch; }
 
 /* ---------- Server card ---------- */
-.server-card { width: 100%; max-width: 460px; background: var(--color-surface); border: 3px solid var(--color-border-strong); box-shadow: var(--shadow-pixel); display: flex; flex-direction: column; }
+.server-card { width: 100%; max-width: 760px; background: var(--color-surface); border: 3px solid var(--color-border-strong); box-shadow: var(--shadow-pixel); display: flex; flex-direction: column; }
 .server-card__status { display: flex; align-items: center; gap: var(--space-3); padding: var(--space-4) var(--space-5); border-bottom: 3px solid var(--color-border); background: var(--color-surface-offset); font-size: var(--text-base); flex-wrap: wrap; }
 .status-dot { width: 14px; height: 14px; background: var(--color-text-faint); box-shadow: inset -3px -3px 0 rgba(0,0,0,0.3); flex-shrink: 0; }
 .status-dot.is-online { background: var(--color-online); animation: pulse 1.6s steps(8) infinite; box-shadow: inset -3px -3px 0 rgba(0,0,0,0.3), 0 0 10px var(--color-online); }
@@ -254,7 +254,7 @@ p, li { text-wrap: pretty; max-width: 100ch; }
   .server-card__ip .ip-value { font-size: 0.95rem; text-align: center; padding-block: var(--space-3); }
   .server-card__ip .btn { width: 100%; }
   .hero__stark { font-size: var(--text-lg); }
-  .hero__subtitle { font-size: var(--text-base); max-width: 100%; }
+  .hero__subtitle { font-size: var(--text-base); max-width: 26ch; }
 }
 
 /* ---------- Sections ---------- */
