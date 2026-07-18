@@ -462,7 +462,7 @@ p, li { text-wrap: pretty; max-width: 100ch; }
   }
 
   .hero__title {
-    font-size: 80px;
+    font-size: clamp(48px, 18vw, 72px);
   }
 
   .brand__name {
