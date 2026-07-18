@@ -797,3 +797,233 @@ blockquote{
 }
 
 }
+/* ===========================
+   Карточка расы
+=========================== */
+
+.race-card{
+    display:grid;
+    grid-template-columns:420px 1fr;
+    gap:55px;
+
+    margin:90px 0;
+    padding:45px;
+
+    background:linear-gradient(180deg,#191613,#131110);
+    border:1px solid #3b3227;
+    border-radius:18px;
+
+    box-shadow:
+        0 0 40px rgba(0,0,0,.45),
+        inset 0 0 30px rgba(255,255,255,.02);
+
+    align-items:start;
+}
+
+.race-card__image{
+    position:sticky;
+    top:40px;
+}
+
+.race-card__image img{
+
+    width:100%;
+    display:block;
+
+    border-radius:14px;
+
+    border:1px solid #5b4930;
+
+    box-shadow:
+        0 15px 40px rgba(0,0,0,.45);
+
+    transition:.35s;
+}
+
+.race-card__image img:hover{
+
+    transform:scale(1.02);
+
+}
+
+.race-card__content h2{
+
+    margin:0;
+
+    font-size:46px;
+
+    letter-spacing:2px;
+
+    color:#f0e0ba;
+
+}
+
+.race-card__subtitle{
+
+    margin:10px 0 35px;
+
+    font-size:19px;
+
+    color:#bc9363;
+
+    font-style:italic;
+
+}
+
+/* ======================
+    Заголовки
+====================== */
+
+.race-card h3{
+
+    margin-top:45px;
+    margin-bottom:18px;
+
+    font-size:25px;
+
+    color:#d5b07a;
+
+    border-bottom:1px solid #3d3124;
+
+    padding-bottom:8px;
+
+}
+
+.race-card h4{
+
+    margin-top:28px;
+    margin-bottom:10px;
+
+    color:#d9c6a0;
+
+}
+
+/* ======================
+    Текст
+====================== */
+
+.race-card p{
+
+    line-height:2;
+
+    color:#c8bfb2;
+
+    font-size:17px;
+
+    text-align:justify;
+
+}
+
+/* ======================
+    Статы
+====================== */
+
+.race-stats{
+
+    list-style:none;
+
+    padding:0;
+
+    margin:25px 0;
+
+    display:grid;
+
+    grid-template-columns:repeat(2,1fr);
+
+    gap:16px;
+
+}
+
+.race-stats li{
+
+    padding:18px 20px;
+
+    background:#181512;
+
+    border:1px solid #46392b;
+
+    border-radius:12px;
+
+    transition:.3s;
+
+    font-size:16px;
+
+}
+
+.race-stats li:hover{
+
+    transform:translateY(-3px);
+
+    border-color:#8d6942;
+
+    box-shadow:0 8px 20px rgba(0,0,0,.3);
+
+}
+
+/* ======================
+      Цитата
+====================== */
+
+blockquote{
+
+    margin-top:45px;
+
+    padding:28px;
+
+    background:#171412;
+
+    border-left:5px solid #b88b54;
+
+    color:#ddd;
+
+    font-size:18px;
+
+    font-style:italic;
+
+}
+
+/* ======================
+      Общие
+====================== */
+
+.section__title{
+
+    font-size:56px;
+
+    margin-bottom:70px;
+
+}
+
+.hero__title{
+
+    font-size:78px;
+
+}
+
+/* ======================
+      ПК
+====================== */
+
+@media (min-width:1400px){
+
+.container{
+
+    width:1450px;
+
+    max-width:95%;
+
+}
+
+.race-card{
+
+    grid-template-columns:460px 1fr;
+
+}
+
+.race-card__content{
+
+    padding-right:40px;
+
+}
+
+}
