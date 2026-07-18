@@ -1270,4 +1270,15 @@ blockquote{
 }
 
 }
+body {
+    color: #d9ceb6 !important;
+}
 
+.hero__title,
+.hero__subtitle,
+.section__title,
+h1,
+h2,
+h3 {
+    color: #e8dcbf !important;
+}
