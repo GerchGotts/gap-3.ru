@@ -568,3 +568,22 @@ p, li { text-wrap: pretty; max-width: 100ch; }
   }
 
 }
+@media (max-width: 768px) {
+
+  .ip-value--lg {
+    display: block;
+    width: 100%;
+    font-size: 1rem;
+    padding: 12px;
+    box-sizing: border-box;
+    white-space: nowrap;
+    overflow-x: auto;
+    text-align: center;
+  }
+
+  .join__ip {
+    width: 100%;
+    max-width: 100%;
+  }
+
+}
