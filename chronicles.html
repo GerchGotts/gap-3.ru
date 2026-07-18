@@ -13,7 +13,16 @@
 
     <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&family=VT323&display=swap" rel="stylesheet">
 </head>
+<script>
+const navToggle = document.getElementById("nav-toggle");
+const nav = document.getElementById("nav");
 
+if (navToggle && nav) {
+    navToggle.addEventListener("click", () => {
+        nav.classList.toggle("active");
+    });
+}
+</script>
 <body>
 
 <!-- ===================================== -->
