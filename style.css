@@ -1282,3 +1282,67 @@ h2,
 h3 {
     color: #e8dcbf !important;
 }
+/* ==========================
+   Телефон — уменьшение текста
+========================== */
+
+@media (max-width:768px){
+
+    body{
+        font-size:15px;
+    }
+
+    h1{
+        font-size:2rem !important;
+    }
+
+    h2{
+        font-size:1.6rem !important;
+    }
+
+    h3{
+        font-size:1.25rem !important;
+    }
+
+    p,
+    li{
+        font-size:.95rem !important;
+        line-height:1.55;
+    }
+
+    .rule p,
+    .mode-card p,
+    .about-card p,
+    .staff-card__desc,
+    .join__intro{
+        font-size:.95rem !important;
+    }
+
+    .rule__num{
+        font-size:1rem !important;
+    }
+}
+
+@media (max-width:480px){
+
+    body{
+        font-size:14px;
+    }
+
+    h1{
+        font-size:1.8rem !important;
+    }
+
+    h2{
+        font-size:1.4rem !important;
+    }
+
+    h3{
+        font-size:1.15rem !important;
+    }
+
+    p,
+    li{
+        font-size:.9rem !important;
+    }
+}
