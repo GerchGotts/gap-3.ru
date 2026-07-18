@@ -138,7 +138,7 @@ h1, h2, h3 {
   font-family: var(--font-display);
   line-height: 1.25; text-wrap: balance; letter-spacing: 0.02em;
 }
-p, li { text-wrap: pretty; max-width: 70ch; }
+p, li { text-wrap: pretty; max-width: 100ch; }
 
 ::selection { background: var(--color-moss); color: #070605; }
 :focus-visible { outline: 3px solid var(--color-gold-bright); outline-offset: 3px; }
@@ -500,7 +500,7 @@ p, li { text-wrap: pretty; max-width: 70ch; }
   }
 
   .about__lead{
-    max-width:80%;
+    max-width:100%;
     font-size:1.1rem;
     text-align:center;
     margin:0 auto;
@@ -516,7 +516,7 @@ p, li { text-wrap: pretty; max-width: 70ch; }
   }
 
   .about-card p{
-    max-width:80%;
+    max-width:100%;
   }
 
 }
