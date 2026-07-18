@@ -1027,3 +1027,48 @@ blockquote{
 }
 
 }
+.race-divider{
+
+    width:100%;
+    height:1px;
+
+    margin:45px 0;
+
+    background:linear-gradient(
+        90deg,
+        transparent,
+        #6f5433,
+        #caa36a,
+        #6f5433,
+        transparent
+    );
+
+}
+
+.race-card h3{
+
+    display:flex;
+    align-items:center;
+    gap:18px;
+
+    margin-bottom:25px;
+
+    font-size:28px;
+
+    color:#d6b27d;
+
+    letter-spacing:2px;
+
+}
+
+.race-card h3::after{
+
+    content:"";
+
+    flex:1;
+
+    height:1px;
+
+    background:#453629;
+
+}
