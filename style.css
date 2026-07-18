@@ -737,32 +737,25 @@ p, li { text-wrap: pretty; max-width: 100ch; }
 }
 
 .race-card__content h2{
-    margin:0;
-    font-size:2rem;
+    color: var(--title-color);
 }
 
 .race-card__subtitle{
-    color:var(--accent);
-    font-style:italic;
-    margin:8px 0 30px;
+    color: var(--color-gold);
 }
 
 .race-card__content h3{
-    margin-top:32px;
-    margin-bottom:15px;
-    color:var(--accent);
+    color: var(--color-gold);
 }
 
 .race-card__content h4{
-    margin-top:20px;
-    margin-bottom:10px;
+    color: var(--color-text);
 }
 
 .race-card__content p{
-    line-height:1.8;
-    color:#c9c0b3;
-    margin-bottom:18px;
+    color: var(--color-text-muted);
 }
+
 
 .race-stats{
     list-style:none;
@@ -785,7 +778,7 @@ blockquote{
     padding:20px;
     border-left:4px solid var(--accent);
     background:#181512;
-    color:#d8d0c4;
+    color: var(--color-text);
     font-style:italic;
 }
 
