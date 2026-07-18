@@ -500,7 +500,7 @@ p, li { text-wrap: pretty; max-width: 70ch; }
   }
 
   .about__lead{
-    max-width:100%;
+    max-width:80%;
     font-size:1.1rem;
     text-align:center;
     margin:0 auto;
@@ -516,7 +516,7 @@ p, li { text-wrap: pretty; max-width: 70ch; }
   }
 
   .about-card p{
-    max-width:100%;
+    max-width:80%;
   }
 
 }
