@@ -716,3 +716,84 @@ p, li { text-wrap: pretty; max-width: 100ch; }
     }
 
 }
+/* ===== Карточки рас ===== */
+
+.race-card{
+    display:grid;
+    grid-template-columns:340px 1fr;
+    gap:40px;
+    margin:80px 0;
+    padding:35px;
+    background:var(--surface);
+    border:1px solid var(--line);
+    border-radius:18px;
+    align-items:start;
+}
+
+.race-card__image img{
+    width:100%;
+    border-radius:14px;
+    display:block;
+    border:1px solid var(--line);
+}
+
+.race-card__content h2{
+    margin:0;
+    font-size:2rem;
+}
+
+.race-card__subtitle{
+    color:var(--accent);
+    font-style:italic;
+    margin:8px 0 30px;
+}
+
+.race-card__content h3{
+    margin-top:32px;
+    margin-bottom:15px;
+    color:var(--accent);
+}
+
+.race-card__content h4{
+    margin-top:20px;
+    margin-bottom:10px;
+}
+
+.race-card__content p{
+    line-height:1.8;
+    color:#c9c0b3;
+    margin-bottom:18px;
+}
+
+.race-stats{
+    list-style:none;
+    padding:0;
+    margin:20px 0 35px;
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+    gap:12px;
+}
+
+.race-stats li{
+    background:#1b1815;
+    border:1px solid var(--line);
+    border-radius:10px;
+    padding:14px 16px;
+}
+
+blockquote{
+    margin:35px 0;
+    padding:20px;
+    border-left:4px solid var(--accent);
+    background:#181512;
+    color:#d8d0c4;
+    font-style:italic;
+}
+
+@media(max-width:900px){
+
+.race-card{
+    grid-template-columns:1fr;
+}
+
+}
