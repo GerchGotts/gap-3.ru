@@ -350,3 +350,142 @@ p, li { text-wrap: pretty; max-width: 70ch; }
 /* ---------- Reveal ---------- */
 .reveal { opacity: 0; transform: translateY(16px); transition: opacity 300ms steps(8), transform 300ms steps(8); }
 .reveal.is-visible { opacity: 1; transform: none; }
+
+/* ========================= */
+/* МОБИЛЬНАЯ АДАПТАЦИЯ */
+/* ========================= */
+
+@media (max-width: 768px) {
+
+  .container {
+    padding-inline: 16px;
+  }
+
+  .header__inner {
+    min-height: 64px;
+  }
+
+  .hero {
+    padding-block: 60px 40px;
+  }
+
+  .hero__title {
+    font-size: clamp(2.5rem, 16vw, 4.5rem);
+    line-height: 1.1;
+  }
+
+  .hero__subtitle {
+    font-size: 1.1rem;
+    max-width: 100%;
+    padding-inline: 10px;
+  }
+
+  .hero__cta {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .hero__cta .btn {
+    width: 100%;
+  }
+
+  .server-card {
+    max-width: 100%;
+  }
+
+  .server-card__status {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+  }
+
+  .status-players {
+    margin-left: 0;
+  }
+
+  .server-card__ip {
+    flex-direction: column;
+  }
+
+  .ip-value {
+    width: 100%;
+    text-align: center;
+  }
+
+  .section__title {
+    font-size: 1.8rem;
+  }
+
+  .section__head {
+    text-align: center;
+  }
+
+  .about__lead,
+  .community__text p,
+  .staff-card__desc,
+  .rule p {
+    font-size: 1.1rem;
+  }
+
+  .team__grid,
+  .modes__grid,
+  .rules,
+  .steps {
+    grid-template-columns: 1fr;
+  }
+
+  .community__inner {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .community__cta {
+    justify-content: center;
+  }
+
+  .footer__links {
+    flex-direction: column;
+    gap: 12px;
+  }
+
+  .staff-card {
+    padding: 24px 18px;
+  }
+}
+
+@media (max-width: 480px) {
+
+  :root {
+    --text-base: 1.1rem;
+    --text-lg: 1.25rem;
+    --text-xl: 1.6rem;
+    --text-2xl: 2rem;
+  }
+
+  .hero__title {
+    font-size: 2.3rem;
+  }
+
+  .brand__name {
+    font-size: .9rem;
+  }
+
+  .btn {
+    font-size: .75rem;
+    padding: 12px 16px;
+  }
+
+  .staff-card__avatar {
+    width: 60px;
+    height: 60px;
+  }
+
+  .staff-card__avatar svg {
+    width: 28px;
+    height: 28px;
+  }
+
+  .section {
+    padding-block: 50px;
+  }
+}
