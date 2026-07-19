@@ -1177,3 +1177,10 @@ blockquote {
     font-size: 1rem;
   }
 }
+  /* лого */
+.brand__logo {
+  width: 36px;
+  height: 36px;
+  object-fit: contain;
+  display: block;
+}
