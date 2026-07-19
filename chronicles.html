@@ -32,14 +32,9 @@ navToggle.addEventListener("click", () => {
 <!-- HEADER -->
 <!-- ===================================== -->
 
-<header class="header">
-
+<header class="header" id="header">
     <div class="container header__inner">
-
-        <a href="index.html" class="brand">
-            <img src="favicon.svg" width="42" class="brand__logo">
-            <span class="brand__name">GAP</span>
-        </a>
+      <a href="#top" class="brand" aria-label="GAP — на главную">
         <svg class="brand__logo" width="36" height="36" viewBox="0 0 16 16" aria-hidden="true" shape-rendering="crispEdges">
           <rect x="0" y="0" width="16" height="16" fill="#3a2a1c"/>
           <rect x="0" y="0" width="16" height="4" fill="#4f6b2a"/>
@@ -54,10 +49,8 @@ navToggle.addEventListener("click", () => {
           <rect x="5" y="10" width="1" height="2" fill="#241811"/>
           <rect x="10" y="12" width="3" height="2" fill="#241811"/>
         </svg>
-        <button class="nav-toggle" id="nav-toggle">
-            ☰
-        </button>
-
+        <span class="brand__name">GAP</span>
+      </a>
         <nav class="nav" id="nav">
 
             <ul class="nav__list">
