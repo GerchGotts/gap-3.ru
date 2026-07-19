@@ -13,8 +13,17 @@
 
     <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&family=VT323&display=swap" rel="stylesheet">
 </head>
+<script>
+const navToggle = document.getElementById("nav-toggle");
+const nav = document.getElementById("nav");
 
-<body>
+navToggle.addEventListener("click", () => {
+    nav.classList.toggle("active");
+});
+</script>
+
+</body>
+</html>
 
 <!-- ===================================== -->
 <!-- HEADER -->
@@ -22,13 +31,11 @@
 
 <header class="header">
 
-<div class="container header__inner">
+    <div class="container header__inner">
 
-<a href="index.html" class="brand">
-
-    <img src="favicon.svg" width="42" class="brand__logo">
-
-    <span class="brand__name">GAP</span>
+        <a href="index.html" class="brand">
+            <img src="favicon.svg" width="42" class="brand__logo">
+            <span class="brand__name">GAP</span>
         </a>
 
         <button class="nav-toggle" id="nav-toggle">
@@ -36,26 +43,43 @@
         </button>
 
         <nav class="nav" id="nav">
+
             <ul class="nav__list">
-                <li><a href="index.html">Главная</a></li>
-                <li><a href="lors.html">Лор</a></li>
-                <li><a href="chronicles.html">Хроники</a></li>
-                <li><a href="lors.html">Расы</a></li>
+
+                <li><a href="index.html" class="nav__link">Главная</a></li>
+                <li><a href="#" class="nav__link">Лор</a></li>
+                <li><a href="chronicles.html" class="nav__link">Хроники</a></li>
+                <li><a href="lors.html" class="nav__link">Расы</a></li>
+
             </ul>
+
         </nav>
 
     </div>
 
 </header>
 
+<!-- ===================================== -->
+<!-- АРХИВ -->
+<!-- ===================================== -->
+
 <section class="section section--alt">
 
+    <div class="container">
 
-<!-- ===================================== -->
-<!-- HERO -->
-<!-- ===================================== -->
+        <div class="section__head">
 
-            <!-- Сезон 1 -->
+            <span class="section__kicker">Архив</span>
+
+            <h2 class="section__title">
+                Все хроники
+            </h2>
+
+        </div>
+
+        <div class="chronicles-grid">
+
+            <!-- Сезон I -->
             <article class="chronicle-card">
 
                 <div class="chronicle-card__icon">★</div>
@@ -70,12 +94,13 @@
                     Начало истории GAP.
                 </p>
 
-             <a href="#season1" class="btn btn--primary">
-    Читать
-</a>
+                <a href="#season1" class="btn btn--primary">
+                    Читать
+                </a>
+
             </article>
 
-            <!-- Сезон 2 -->
+            <!-- Сезон II -->
             <article class="chronicle-card">
 
                 <div class="chronicle-card__icon">★</div>
@@ -89,13 +114,13 @@
                     Начало новой эпохи.
                 </p>
 
-<a href="#season2" class="btn btn--primary">
-    Читать
-</a>
+                <a href="#season2" class="btn btn--primary">
+                    Читать
+                </a>
 
             </article>
 
-            <!-- Сезон 3 -->
+            <!-- Сезон III -->
             <article class="chronicle-card">
 
                 <div class="chronicle-card__icon">★</div>
@@ -113,7 +138,7 @@
 
             </article>
 
-            <!-- Будущее -->
+            <!-- Будущие эпохи -->
             <article class="chronicle-card">
 
                 <div class="chronicle-card__icon">★</div>
